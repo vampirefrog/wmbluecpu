@@ -1,0 +1,24 @@
+Version		Description
+###########################
+0.9	Added menu and probably some other stuff
+0.8     [Insert l33t phraze here]
+0.7     I forgot.
+0.6	Completely rewritten. Kept the FreeBSD cpu code.
+0.5	Thanks to Alexey Dokuchaev <danfe@regency.nsu.ru>,
+          now FreeBSD is supported!
+	Merged all pixmaps into one, 'pixmap.xpm'
+0.4	Now windowed mode will have no decorations,
+	 the window can be moved with the mouse.
+	Moved pixmaps to xpm/
+0.3	Cleaned up options
+	Cleaned up the whole thing (but just a little), 'twas a mess
+	Every expose event now just calls update_window, not draw_window, so
+	  there's less cpu usage here.
+0.2	Removed -bw, now not needed :)
+	When run with -ns, a panel is created.
+	Renamed timer.c and timer.h to timing.c and timing.h
+	made -s and -m into one: -s <MILISECS>
+0.1	Added the following options:
+	-bw - make it run in bad windowmanagers
+	-w - make it run in a window
+	-ns - don't use the XShape extension

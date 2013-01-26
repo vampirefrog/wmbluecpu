@@ -1,0 +1,49 @@
+.TH "WMBlueCPU" "1" "0.9" "Mihai Draghicioiu" "Dockapps"
+.SH "NAME"
+WMBlueCPU \- a cpu monitor
+.SH "SYNOPSIS"
+wmbluecpu [options] [\-c <cpunumber>]
+.SH "DESCRIPTION"
+.PP 
+\fBWMBlueCPU\fP is a cpu monitor. It runs either as a dockapp or in a normal window. It displays the cpu usage at the top, and a history chart at the bottom.
+.SH "OPTIONS"
+\fBWMBlueCPU\fP accepts the following command\-line options:
+.TP 
+.B \-h, \-\-help
+Display basic usage information and exit.
+.TP 
+.B \-v, \-\-version
+Display version number and exit.
+.TP 
+.B \-display <DISPLAY>
+Specify the X11 display to connect to.
+.TP 
+.B \-m, \-\-milisecs <ms>
+The number of miliseconds between updates.
+.TP 
+.B \-w, \-\-window
+Run in a window.
+.TP 
+.B \-nw, \-\-no\-window
+Don't run in a window.
+.TP 
+.B \-s, \-\-shape
+Use the XShape extension.
+.TP 
+.B \-ns, \-\-no\-shape
+Don't use the XShape extension. The window will be placed on it's own panel.
+.TP 
+.B \-b, \-\-bgcolor  <col>
+Specify the background color.
+.TP 
+.B \-f,  \-\-offcolor <col>
+The color for off leds
+.TP 
+.B \-o,  \-\-oncolor  <col>
+The color for text and on leds.
+.TP 
+.B \-c, \-\-cpunum <cpu>
+Specify which cpu to monitor (for SMP systems only)
+
+.SH "AUTHOR"
+Mihai Draghicioiu <mihai.draghicioiu@gmail.com>
