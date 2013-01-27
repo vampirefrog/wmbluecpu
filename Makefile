@@ -6,7 +6,7 @@ PREFIX=/usr/local
 # Use Xft for the menu
 USE_XFT=yes
 
-VERSION=0.9
+VERSION=0.10
 
 BINDIR=$(PREFIX)/bin
 MANPREFIX=$(PREFIX)/share/man
